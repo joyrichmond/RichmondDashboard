@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Poiret One', sans-serif; 
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 6rem 0 6rem 2rem;
+}
+
+.bubbles {
+    max-height: 42rem;
+    z-index: -1;
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    opacity: 0.5;
+}
+
+p {
+    text-align: center;
+    margin: 4rem 0;
+}
+a {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: #fa1657;
+}
+
+a:hover {
+    color: #00c8d0;
+}
