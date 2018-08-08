@@ -7,6 +7,7 @@ h1 {
     font-size: 3rem;
     font-weight: 100;
     margin: 6rem 0 6rem 2rem;
+    color: #663300;
 }
 
 .bubbles {
@@ -27,9 +28,9 @@ a {
     font-size: 4rem;
     font-weight: 100;
     text-decoration: none;
-    color: #fa1657;
+    color: #93b440;
 }
 
 a:hover {
-    color: #00c8d0;
+    color: #00cc99;
 }
