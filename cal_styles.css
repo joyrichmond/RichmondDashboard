@@ -27,7 +27,19 @@ h2 {
     font-weight: 100;
 }
 
-iframe {
+.class_home {
+    display: flex;
+    margin: 0 21rem 0 1rem;
+}
+
+.textbook {
+    flex: 0 1 auto;
     text-align: center;
-    margin: 1rem;
+    border-right: solid 1px #663300;
+    padding: 1rem 2rem 2rem 0;
+}
+
+.assignments {
+    flex: 2 4 auto;
+    text-align: center;
 }
