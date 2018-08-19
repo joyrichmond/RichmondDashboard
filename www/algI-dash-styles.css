@@ -15,7 +15,7 @@ h1 {
         font-family: 'Poiret One', sans-serif; 
         font-size: 2rem;
         font-weight: 100;
-        margin: 2rem 0 2rem 2rem;
+        margin: 1rem 0 1rem 1rem;
         color: #663300
 }
 
@@ -25,21 +25,27 @@ h2 {
     text-align: center; 
     font-size: 4rem;
     font-weight: 100;
+    margin: 1rem;
 }
 
 .class_home {
     display: flex;
     margin: 0 21rem 0 1rem;
+    align-items: center;
 }
 
 .textbook {
-    flex: 0 1 auto;
-    text-align: center;
+    align-self: center;
     border-right: solid 1px #663300;
-    padding: 1rem 2rem 2rem 0;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
 .assignments {
-    flex: 2 4 auto;
+    padding: 0 0 0 2rem;
+    flex: 0 1 0;
+}
+
+h3 {
     text-align: center;
+    font-family: "Poiret One", sans-serif;
 }
