@@ -37,12 +37,12 @@ h2 {
 .textbook {
     align-self: center;
     border-right: solid 1px #663300;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 0 2rem;
     flex: 1 1 0;
 }
 
 .assignments {
-    padding: 0 0 0 2rem;
+    padding: 0 2rem;
     flex: 3 3 0;
     border-right: solid 1px #663300;
 }
