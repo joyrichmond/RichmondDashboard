@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     font-family: 'Poiret One', sans-serif; 
-    color: #93b440;
+    color: #00cc99;
     text-align: center; 
     font-size: 4rem;
     font-weight: 100;
@@ -78,7 +78,7 @@ h3 {
     flex-direction: column;
 }
 button {
-    background-color: #93b440;
+    background-color: #00cc99;
     border: 2px solid #663300;
     padding: 0.5rem 1.5rem;
     margin: 0.8rem;
@@ -87,7 +87,7 @@ button {
 }
 
 button:hover {
-    background-color: #00cc99;
+    background-color: #93b440;
     box-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff;
 }
 .button-link {
@@ -100,7 +100,7 @@ button:hover {
 .unit-box {
     background-color: #663300;
     margin: 0 12rem 2rem 6rem;
-    border: 6px solid #93b440;
+    border: 6px solid #00cc99;
     border-radius: 7rem;
 }
 
@@ -123,7 +123,7 @@ footer {
     justify-content: space-between;
     background-color: #8e7052;
     color: #ffffff;
-    border-top: 6px solid #93b440;
+    border-top: 6px solid #00cc99;
     padding: 0 2rem;
 }
 
@@ -137,5 +137,5 @@ p > a {
 }
 
 p > a:hover {
-    color: #00cc99;
+    color: #93b440;
 }
