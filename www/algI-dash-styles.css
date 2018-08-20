@@ -99,7 +99,7 @@ button:hover {
 
 .unit-box {
     background-color: #663300;
-    margin: 0 12rem 0 6rem;
+    margin: 0 12rem 2rem 6rem;
     border: 6px solid #93b440;
     border-radius: 7rem;
 }
@@ -116,4 +116,26 @@ button:hover {
 
 .unit-resources > button {
     border: 2px solid #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8e7052;
+    color: #ffffff;
+    border-top: 6px solid #93b440;
+    padding: 0 2rem;
+}
+
+footer > p {
+    flex: 0 0 auto;
+    font-family: "Open Sans Condensed", sans-serif;  
+}
+
+p > a {
+    color: white;
+}
+
+p > a:hover {
+    color: #00cc99;
 }
