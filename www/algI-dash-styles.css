@@ -34,9 +34,17 @@ h2 {
 }
 
 .textbook {
-    align-self: center;
     border-right: 1px solid #663300;
     padding: 0 2rem;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1 1 0;
 }
 
