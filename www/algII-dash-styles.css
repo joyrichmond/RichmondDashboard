@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+}
+
+.bubbles {
+    max-height: 42rem;
+    z-index: -1;
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    opacity: 0.5;
+}
+
+h1 {
+        font-family: 'Poiret One', sans-serif; 
+        font-size: 2rem;
+        font-weight: 100;
+        margin: 1rem 0 1rem 1rem;
+        color: #663300
+}
+
+h2 {
+    font-family: 'Poiret One', sans-serif; 
+    color: #93b440;
+    text-align: center; 
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 1rem;
+}
+
+.class_home {
+    display: flex;
+    margin: 2rem;
+}
+
+.textbook {
+    border-right: 1px solid #663300;
+    padding: 0 2rem;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+a > img {
+    filter: opacity(60%)
+}
+
+a > img:hover {
+    filter: opacity(100%)
+}
+
+.assignments {
+    padding: 0 2rem;
+    flex: 3 3 0;
+    border-right: 1px solid #663300;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+}
+
+.sidebar {
+    flex: 0 0 auto;
+    width: 12rem;
+    padding: 0 6rem 0 2rem;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: #93b440;
+    border: 2px solid #663300;
+    padding: 0.5rem 1.5rem;
+    margin: 0.8rem;
+    flex: 0 0 auto;
+    border-radius: 2rem;
+}
+
+button:hover {
+    background-color: #00cc99;
+    box-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff;
+}
+.button-link {
+    font-family: "Poiret One", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.unit-box {
+    background-color: #663300;
+    margin: 0 12rem 2rem 6rem;
+    border: 6px solid #93b440;
+    border-radius: 7rem;
+}
+
+.unit-box > h3 {
+    color: #ffffff;
+}
+
+.unit-resources {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.unit-resources > button {
+    border: 2px solid #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8e7052;
+    color: #ffffff;
+    border-top: 6px solid #93b440;
+    padding: 0 2rem;
+}
+
+footer > p {
+    flex: 0 0 auto;
+    font-family: "Open Sans Condensed", sans-serif;  
+}
+
+p > a {
+    color: white;
+}
+
+p > a:hover {
+    color: #00cc99;
+}
