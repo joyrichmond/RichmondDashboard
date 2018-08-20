@@ -19,11 +19,17 @@ h1 {
     opacity: 0.5;
 }
 
-p {
-    text-align: center;
-    margin: 4rem 0;
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem;
 }
-a {
+
+.course {
+    flex: 0 0 auto;
+}
+
+.course > p > a {
     font-family: 'Poiret One', sans-serif;
     font-size: 4rem;
     font-weight: 100;
@@ -31,6 +37,14 @@ a {
     color: #93b440;
 }
 
-a:hover {
+.course > p > a:hover {
     color: #00cc99;
+}
+
+.contact {
+    flex: 0 0 auto;
+}
+
+.contact {
+    font-family: "Poiret One", sans-serif;
 }
