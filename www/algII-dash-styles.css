@@ -62,21 +62,6 @@ a > img:hover {
     border-right: 1px solid #663300;
 }
 
-h3 {
-    text-align: center;
-    font-family: "Poiret One", sans-serif;
-}
-
-.sidebar {
-    flex: 0 0 auto;
-    width: 12rem;
-    padding: 0 6rem 0 2rem;
-}
-
-.button-box {
-    display: flex;
-    flex-direction: column;
-}
 button {
     background-color: #00cc99;
     border: 2px solid #663300;
@@ -84,8 +69,8 @@ button {
     margin: 0.8rem;
     flex: 0 0 auto;
     border-radius: 2rem;
+    color: #663300;
 }
-
 button:hover {
     background-color: #93b440;
     box-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff;
@@ -98,25 +83,43 @@ button:hover {
     font-size: 1.2rem;
 }
 
-.unit-box {
+h3 {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: #663300;
     margin: 0 12rem 2rem 6rem;
-    border: 6px solid #00cc99;
+    border: 4px solid #00cc99;
     border-radius: 7rem;
 }
 
-.unit-box > h3 {
+.resource-box > h3 {
     color: #ffffff;
+}
+
+.resource-box > button {
+    border: 2px solid #ffffff;
+}
+
+.unit-box {
+    flex: 0 0 auto;
+    width: 12rem;
+    padding: 0 6rem
 }
 
 .unit-resources {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.unit-resources > button {
-    border: 2px solid #ffffff;
+    flex-direction: column;
 }
 
 footer {
